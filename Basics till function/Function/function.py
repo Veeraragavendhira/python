@@ -41,16 +41,7 @@
 # add()
 
 
-#Return
-# stops the function & Returns the value to the function
 
-# def add():  #function definition
-#     a = int(input("Enter a: "))
-#     b = int(input("Enter b: "))
-#     print("Inside Function", a + b)
-#     return a * b
-# c = add()
-# print("c = " ,c)
 
 # type()
 # len()
@@ -63,7 +54,6 @@
 
 
 # 1. No parameter & No return
-
 # def CM():
 #     print("one")
 # CM()
@@ -74,7 +64,7 @@
 # def CM(a,b,c):
 #     print("one", a, b, c)
 # CM(10,20,30)
-# CM(10,20,30)
+# CM(1,2,3)
 
 
 # 3. No parameter & With return
@@ -83,7 +73,7 @@
 #     b = 20
 #     print(a + b)
 #     return a
-# CM()
+# # CM()
 # print(CM())
 
 
@@ -92,7 +82,8 @@
 #     print(a + b)    
 #     return a , b
 # CM(25, 10)
-# print(CM(15, 5))
+# CM(15, 5)
+# print(CM(1,2))
 
 
 
@@ -113,14 +104,16 @@
 # b = 21
 # print(b)
 # def friday():
-#     global b
+#     # global b
 #     b = 20  #Local
 #     print(a)
 #     print(b)
 #     print("Function executed, Variable printed")
 # friday()
 # print(a)
+# b = 19
 # print(b)
+
 
 # global Keyword:
 # a = 11  #Global
