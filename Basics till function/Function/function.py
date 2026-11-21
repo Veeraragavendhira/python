@@ -78,12 +78,12 @@
 
 
 # 4. With parameter & With return
-def CM(a, b):
-    print(a + b)    
-    return a , b
-CM(25,0)
-CM(15, 5)
-print(CM(1,2))
+# def CM(a, b):
+#     print(a + b)    
+#     return a , b
+# CM(25,0)
+# CM(15, 5)
+# print(CM(1,2))
 
 
 
@@ -131,21 +131,21 @@ print(CM(1,2))
 
 #Default Arguments :
 # if user does not provide the arguments it automatically takes the backup values stored 
-# def argu(name = "Friend", age = 18):    #default
+# def default(name = "Friend", age = 18):    #default
 #     print("Hello" , name, age) 
-# argu("ram", 20)
-# argu(18, "thiyagu")
-# argu()
+# default("ram", 20)
+# default(18, "thiyagu")
+# default()
 # print("End...✌️")
 
 
 #Positional Arguments :
 #   assign the data on a order
-# def argu(name = "Friend", age = 18):    #default
-#     print("Hello" , name, age) 
-# argu(20, "RAJA")  #positional
-# argu("Ragu")
-# print("End...✌️")
+def argu(name ,age):    #default
+    print("Hello" , name , age) 
+argu(20, "RAJA")  #positional
+argu("Ragu", 11)
+print("End...✌️")
 
 
 # #Keyword Arguments :
