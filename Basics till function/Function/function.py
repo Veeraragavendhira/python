@@ -78,12 +78,12 @@
 
 
 # 4. With parameter & With return
-# def CM(a, b):
-#     print(a + b)    
-#     return a , b
-# CM(25, 10)
-# CM(15, 5)
-# print(CM(1,2))
+def CM(a, b):
+    print(a + b)    
+    return a , b
+CM(25,0)
+CM(15, 5)
+print(CM(1,2))
 
 
 
