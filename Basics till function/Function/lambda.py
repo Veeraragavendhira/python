@@ -2,16 +2,17 @@
     # One-line function
 
 # Normal Function
-def func_name(a):
-    return a * a 
-func_name(5)
+# def func_name(a):
+#     print(a)
+#     return a * a 
+# func_name(5)
 
 
 # Using Lambda
-#             lambda parameter(a): expression 
+            # lambda parameter(a): expression 
 # func_name = lambda a: (a*a, a+a, a-a, a/a, a==a)  
 # print("EXECUTED")
-# print(func_name(5))
+# print(func_name(10))
 # print(func_name(3))
 
 
@@ -27,7 +28,7 @@ func_name(5)
 # numbers = lambda n : "Even" if n % 2 == 0 else "Odd"
 # n = int(input("enter n : "))
 # print(numbers(10))
-# f"{a[0]} is the first letter of {a}"
+# f"{n[0]} is the first letter of {n}"
 
 # print greatest of 2 numbers(a > b print(a)) using if  else
 # greatest = lambda a, b: (a, "a is Greater") if a > b else (b, "b is Greater")
